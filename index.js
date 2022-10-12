@@ -43,13 +43,13 @@ function spill(map, row, column) {
 
 module.exports = spill;
 
-// const TILE_MAP = [
-//   [1, 1, 1, 0, 0, 0],
-//   [1, 1, 1, 0, 0, 0],
-//   [1, 1, 1, 1, 0, 0],
-//   [0, 1, 0, 0, 1, 1],
-//   [0, 1, 0, 0, 1, 1],
-// ];
+const TILE_MAP = [
+  [1, 1, 1, 0, 0, 0],
+  [1, 1, 1, 0, 0, 0],
+  [1, 1, 1, 1, 0, 0],
+  [0, 1, 0, 0, 1, 1],
+  [0, 1, 0, 0, 1, 1],
+];
 
 // console.log('TILE_MAP', TILE_MAP);
-// console.log('spill(TILE_MAP,0,0)', spill(TILE_MAP, 2, 3));
+console.log('spill(TILE_MAP,4,4)', spill(TILE_MAP, 4, 4));
